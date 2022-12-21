@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    /* overflow-x: hidden; */
+}
+
+body{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+ul li {
+     list-style: none;
+}
+.fa{
+    color: black;
+    height: 30px;
+    width: 20px;
+}
+input{
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-top: -10px;
+}
+
+
+.nav-bar{
+    margin-top: 30px;
+    width: 100%;
+    /* display: flex; */
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+    display:flex;
+    align-items: center;
+}
+
+.head{
+     display: flex;
+    margin-right: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.list1{
+  
+    justify-content: space-between;
+    display: flex
+}
+ul li a {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+ul li a:hover{
+    position: relative;
+    border: 2px  ;
+    background-color: black;
+    border-radius: 12px;
+    transition: .5s;
+    color: white;
+}
+
+.fa:hover{
+    text-decoration: none;
+    position: relative;
+}
+
+.fa{
+    width: 20px;
+    height: 20px;
+    /* padding: 10px 10px 10px 10px;
+    margin: 2px 2px 2px 2px; */
+}
+
+.fa:hover{
+    border: none
+
+}
+
+.main_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_girl{
+    /* display: flex; */
+    height: 500px;
+    width: 760px;
+    margin: 7%;
+    background-image: url(banner.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.text_1{
+    flex-basis: 32%;
+    /* position:relative */
+    margin-top: 100px;
+    color: white;
+    font: bolder;
+    padding: 20px 20px 20px 20px;
+    /* opacity: 1; */
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 3
+    00px;
+    margin-right: 25px;
+
+    float: right;
+    text-align: center;
+    
+}
+
+.text_1:hover{
+    color: black;
+    
+    background-color: transparent;
+    transition: .7s;
+    transform: rotateX(45deg);
+    /* transform: rotateY(90deg); */
+
+}
+
+.main_2{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.head2{
+    color:rgb(0, 0, 0) ;
+    font-size: 50px;
+    padding: 20px 40px 20px 40px;
+    font-family:monospace;
+    border: 2px solid black;
+    border-radius: 30px;
+
+    /* border-left: 2px; */
+    /* width: max-content; */
+    box-shadow: 3px 1px 1px rgb(rgb(225, 214, 214), green, blue);
+}
+p{
+    width: 100vh;
+    overflow:hidden;
+    padding-top: 40px;
+}
+
+.head2:hover{
+    color: white;
+    background-color: black;
+    transition: .5s;
+}
+.row{
+    /* height:250px; */
+    /* width: 300px; */
+    display: flex;
+    /* position: relative; */
+    /* display: inline-block; */
+    justify-content: space-between;
+}
+.col-2{
+    /* display: flex; */
+    flex-basis: 32%;
+    position: relative;
+    margin: 10px 10px;
+    
+    /* padding: border-box; */
+    /* justify-content: space-between; */
+}
+
+.i_trend{
+    /* margin: 7%; */
+    height: 270px;
+    width: 220px;
+}
+.layer-2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+.layer-2:hover{
+    background: rgba(2, 48, 50, 0.256);
+}
+
+.layer-2 h3{
+    width: 100%;
+    color: white;
+    top: 0;
+    font-weight: bolder;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+
+.layer-2:hover h3{
+    top: 44%;
+    opacity: 1;
+}
+
+.btn-2{
+    border: 1px solid white;
+    /* color: black; */
+    width: min-content;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* page3 */
+.main_3{
+    margin-top: 70px;
+    height:60vh;
+    background-image: url(fashion.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.left-ex{
+    float: left;
+    height: 400px;
+    margin: 5%;
+}
+
+
+.girl{
+    /* background-image: url(images/Fashion_web_img//exclusive.jpeg); */
+    background-image: cover;
+    color: black;
+    flex:-1;
+
+}
+.girl:hover{
+    box-shadow: 0 2px 40px 0 rgba(140,440, 608, 4);
+}
+
+.right-ex{
+    align-items: center;
+    margin-top:40px;
+    /* padding: border-box; */
+    margin-right: 260px;
+    /* margin-left: 180px; */
+    /* width: 70px; */
+    border: 1px solid;
+    padding: 50px 20px 50px 40px;
+    color: black;
+    height: 250px;
+    background-color: rgb(247, 243, 238) ;
+    opacity: 0.7;
+    border-radius: 2px;
+    border-style: none;
+   
+}
+
+.text-box h3{
+    margin-top: 20px;
+
+}
+.text-box{
+align-items: center;
+/* background-color: white; */
+
+}
+button{
+    padding: 2px 2px 2px 2px;
+    color: white;
+    background: black;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    color:white;
+    padding: 5px 5px 5px 5px;
+    background-color:rgb(182, 58, 79);
+    border: none;
+}
+.main-4{
+    padding-top: 150px;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.row-4{
+    /* height:100; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.head4{
+    color: black;
+    font-size: 50px;
+    padding: 20px 40px 20px 40px;
+    font-family: monospace;
+    border:2px solid black;
+    border-radius: 30px;
+    box-shadow: 3px 1px 1px rgb(225, 214, 214);
+}
+.head4:hover{
+    color: white;
+    background-color: black;
+    transition: .5s;
+}
+
+.col-4{
+    flex-basis: 32%;
+    position: relative;
+    margin:10px 10px;
+    /* height: 50px;
+    width: 100px; */
+}
+.i_trend-4{
+padding-top: 20px 50px 20px 10px;
+height: 180px;
+width: 180px;
+margin: 10%s;
+}
+
+.main-5{
+    padding-top: 60px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.row-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 100px; */
+}
+
+
+.head5{
+    /* text-align: center; */
+    /* margin-top :50px; */
+    /* width: min-content; */
+    align-items: center;
+    color: black;
+    font-size: 50px;
+    padding: 20px 40px 20px 40px;
+    font-family: monospace;
+    border:2px solid black;
+    border-radius: 30px;
+    box-shadow: 3px 1px 1px rgb(225, 214, 214);
+}
+.head5:hover{
+    color: white;
+    background-color: black;
+    transition: .5s;
+}
+
+.col-5{
+    flex-basis: 32%;
+    position: relative;
+    padding: 50px 20px 20px 20px;
+}
+
+.i_trend-5{
+    height: 200px;
+    width: 200px;
+    background: #fff;
+    align-items: center;
+    padding: 30px;
+    /* border:  solid; */
+    border-radius: 50%;
+    box-shadow: 0 2px 40px 0 rgba(110,130, 208, .18);
+}
+.i_trend-5:hover{
+    transform: rotateX(20deg);
+    opacity: 5;
+    /* transform: rotateY(40deg); */
+}
+
+
+
+.foot{
+    margin-top: 150px;
+    /* background:coral */
+    height: 300px;
+    width: 100%;
+    /* margin: 150px; */
+    overflow: hidden;
+    background-color: rgb(145, 229, 228);
+ 
+}
+
+.row-footer{
+    /* height: 300px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.col-footer{
+    text-align: center;
+    justify-content: space-between;
+    /* position:fixed; */
+    /* height: 300px; */
+    width: 33%;
+    /* margin-left :10px; */
+    /* border: 1px solid; */
+
+}
+
+.f-head{
+    margin-top: 10px;
+    /* margin-right: 3%; */
+    padding: 10px 5px 5px 25px;
+    font-size: 20px;
+    /* display: flex; */
+    /* text-align: center;///////////////////////////////// */
+    margin-bottom: 5%;
+    /* margin-right: 17%; */
+    /* border: 1px solid black; */
+    /* position: absolute; */
+
+}
+
+.payment {
+    /* padding-top: 10px; */
+}
+
+.payment img{
+    width: 300px;
+    cursor: pointer;
+}
+
+.insta{
+    justify-content:space-between;
+    cursor: pointer;
+    padding: 15px 10px 10px 10px;
+}
+.insta{
+      padding: 2px;
+    height: 95px;
+    width: 95px;
+    /* display: flex; */
+    /* margin: 50px auto; */
+}
+
+.f-head:hover{
+  border-bottom: 2px solid white;
+  
+}
+
+@media only screen and(max-width:900px)
+{
+    .image_girl{
+        margin: 40px auto;
+        width: 80%;
+    }
+
+    .text_1{
+        top: 150px;
+        left: 50%;
+        transform:translate(-50%)
+    }
+
+    .text_1 h1{
+        font-size: 16px;
+        padding: 5px;
+        line-height: 20px;
+    }
+    .head2 , .head4 ,.head5{
+        padding: 10px 10px 10px 10px;
+    }
+}
